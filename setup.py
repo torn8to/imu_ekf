@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'record_data_points = imu_ekf.scripts.record_data_points:main',
+            'live_node = imu_ekf.scripts.live_node:main',
         ],
     },
 )
